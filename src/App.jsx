@@ -68,7 +68,7 @@ function App() {
       <Footer />
 
     </BrowserRouter>
-    // yes
+    // CODE
   );
 }
 

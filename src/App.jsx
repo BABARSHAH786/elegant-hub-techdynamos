@@ -67,7 +67,7 @@ function App() {
       <ProductCustomizer />
       <Footer />
 
-    </BrowserRouter>
+    </BrowserRouter>//new 
     
   );
 }

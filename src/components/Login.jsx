@@ -1,13 +1,8 @@
-// name login
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { login } from "../redux/authSlice";
 import { useNavigate } from "react-router-dom";
-<<<<<<< HEAD
 
-=======
-// git check
->>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -42,9 +37,9 @@ const Login = () => {
   };
 
   return (
-    <div className="p-4 max-w-sm mx-auto">
-      <h2 className="text-xl font-bold mb-4">Login</h2>
-      {error && <p className="text-red-500">{error}</p>}
+    <div className="p-4 max-w-sm mx-auto bg-white shadow-lg rounded-lg">
+      <h2 className="text-xl font-bold mb-4 text-center">Login</h2>
+      {error && <p className="text-red-500 text-center">{error}</p>}
       <form onSubmit={handleLogin} className="space-y-3">
         <input
           type="email"
@@ -64,12 +59,14 @@ const Login = () => {
         />
         <button
           type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded w-full"
+          className="bg-blue-500 text-white px-4 py-2 rounded w-full hover:bg-blue-600 transition"
         >
           Login
         </button>
       </form>
-      <h2>Try this email for login: <strong>Sincere@april.biz</strong></h2>
+      <div className="mt-4 text-center">
+        <h3 className="text-sm">Try this email for login: <strong>Sincere@april.biz</strong></h3>
+      </div>
     </div>
   );
 };

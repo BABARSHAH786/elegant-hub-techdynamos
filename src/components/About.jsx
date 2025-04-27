@@ -6,7 +6,6 @@ const About = () => {
       <h1 className="text-4xl font-extrabold text-gray-800 mb-6 text-center">
         About Elegant Store
       </h1>
-<<<<<<< HEAD
       <div class="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 text-white space-y-6">
   <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight">
     What Makes Us Unique
@@ -20,9 +19,6 @@ const About = () => {
     Why Choose Elegant Hub?
   </p>
 </div>
-
-=======
->>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Column: Store Information */}

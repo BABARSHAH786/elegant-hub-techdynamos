@@ -3,7 +3,11 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { login } from "../redux/authSlice";
 import { useNavigate } from "react-router-dom";
+<<<<<<< HEAD
 
+=======
+// git check
+>>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

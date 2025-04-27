@@ -9,4 +9,7 @@ Currently, two official plugins are available:
 "# react-ecommerce-dynamic" 
 "# resct-jav-ecomerce" 
 "# react-redux-addtocart-ecommerece" 
+<<<<<<< HEAD
 "# elegant-git-issue" 
+=======
+>>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3

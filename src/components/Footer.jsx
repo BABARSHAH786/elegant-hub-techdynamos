@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     // <footer className="bg-gray-800 text-white py-8">
     <footer className="bg-gradient-to-r from-purple-600 to-blue-800 shadow-md p-4">
+=======
+    <footer className="bg-gray-800 text-white py-8">
+>>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}

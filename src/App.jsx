@@ -12,7 +12,11 @@ import Login from "./components/Login";
 import LogoutButton from "./components/LogoutButton";
 import RequireAuth from "./components/RequireAuth";
 import { ToastContainer } from "react-toastify";
+<<<<<<< HEAD
 // import ProductCustomizer from "./components/TProductCustomizer";
+=======
+import ProductCustomizer from "./components/TProductCustomizer";
+>>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3
 
 // Protected Dashboard Component
 const Dashboard = () => (
@@ -28,7 +32,10 @@ function App() {
 
   return (
     <BrowserRouter>
+<<<<<<< HEAD
   
+=======
+>>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3
       <Routes>
         {/* Login Page - Separate from main layout */}
         <Route path="/login" element={<Login />} />
@@ -65,6 +72,7 @@ function App() {
 
       {/* Toast Notification */}
       <ToastContainer position="top-right" autoClose={2000} />
+<<<<<<< HEAD
       <div class="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white space-y-6">
   <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
     Welcome to Elegant Hub
@@ -121,6 +129,12 @@ function App() {
 
     </BrowserRouter>
     
+=======
+      <ProductCustomizer />
+      <Footer />
+
+    </BrowserRouter>//new 
+>>>>>>> e92c576c39c34a3c988fb1399c134015c6f4c1a3
     
   );
 }

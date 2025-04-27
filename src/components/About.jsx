@@ -6,6 +6,20 @@ const About = () => {
       <h1 className="text-4xl font-extrabold text-gray-800 mb-6 text-center">
         About Elegant Store
       </h1>
+      <div class="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 text-white space-y-6">
+  <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight">
+    What Makes Us Unique
+  </h2>
+
+  <h3 class="text-2xl md:text-3xl font-semibold">
+    Standing Out from the Competition
+  </h3>
+
+  <p class="max-w-2xl text-base md:text-lg italic mt-4">
+    Why Choose Elegant Hub?
+  </p>
+</div>
+
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Column: Store Information */}
